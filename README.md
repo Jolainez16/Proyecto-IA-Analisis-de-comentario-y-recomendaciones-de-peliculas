@@ -1,12 +1,15 @@
 Analisis de comentarios y recomendacion de peliculas
+
 Este proyecto implementa un detector de emociones que nos permitira clasificar los comentarios de la peliculas como positivos o negativos. Nos recomendara películas similares o diferentes según sea el comentario ingresado o nuestras preferencias personales de acuerdo con nuestra elección.
 
 Caracteristicas
+
 Analizar comentarios de películas y determinar si son positivos o negativos utilizando un modelo de análisis de sentimientos entrenado con TensorFlow (modelo_sentimientos_imdb.keras).
 Generar recomendaciones de películas basadas en el sentimiento del comentario o en preferencias personales del usuario.
 Mostrar comentarios reales de IMDb para cada película.
 
 Requisitos
+
 •  Python 3.x como lenguaje principal.
 •  TensorFlow / TensorFlow Datasets para el análisis de sentimientos.
 •  IMDbPy para obtener información y comentarios de IMDb.
@@ -15,6 +18,7 @@ Requisitos
 •  Uso de módulos estándar (random, subprocess, sys, font) para funciones internas y ejecución de scripts adicionales.
 
 Uso
+
 1.	Asegurarse de tener requirements.txt con:
 tensorflow
 tensorflow-datasets
